@@ -1,0 +1,29 @@
+/* Variables */
+
+$text-logo: 'Wisdom Script', sans-serif;
+$text-serif: 'Droid Serif', sans-serif;
+$text-sans: 'Montserrat', sans-serif;
+$text-desc: 'Roboto Slab', serif;
+
+$font-xs: 14px;
+$font-s: 16px;
+$font-m: 18px;
+$font-l: 26px;
+$font-xl: 40px;
+$font-xxl: 75px;
+
+$color-yellow: #fed136;
+$color-dark: #222222;
+$color-gray: #777777;
+$color-darker-gray: #737373;
+$color-footer: #555555;
+$color-light: #f7f7f7;
+
+/* Globals */
+
+/* The rest */
+
+h1 {
+    font-family: $text-logo;
+    font-size: 50px;
+}
