@@ -1,9 +1,16 @@
 /* Variables */
 /* Globals */
-/* The rest */
-h1 {
-  font-family: "Wisdom Script", sans-serif;
-  font-size: 50px;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBcUJBLFlBQUE7QUFFQSxhQUFBO0FBRUE7RUFDSSx3Q0F4QlE7RUF5QlIsZUFBQTtBQ3JCSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/* Header */
+header {
+  background-image: url("../images/hero.png");
+  color: #f7f7f7;
+}
+
+/* Navigation */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBcUJBLFlBQUE7QUFFQTtFQUNJLFVBQUE7RUFDQSxTQUFBO0FDcEJKOztBRHVCQSxXQUFBO0FBRUE7RUFDSSwyQ0FBQTtFQUNBLGNBYlU7QUNSZDs7QUR3QkEsZUFBQSIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

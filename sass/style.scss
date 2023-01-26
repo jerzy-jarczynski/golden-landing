@@ -21,9 +21,17 @@ $color-light: #f7f7f7;
 
 /* Globals */
 
-/* The rest */
-
-h1 {
-    font-family: $text-logo;
-    font-size: 50px;
+body {
+    padding: 0;
+    margin: 0;
 }
+
+/* Header */
+
+header {
+    background-image: url("../images/hero.png");
+    color: $color-light;
+}
+
+/* Navigation */
+
