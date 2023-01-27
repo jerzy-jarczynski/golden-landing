@@ -1,225 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.cdnfonts.com/css/wisdom-script" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/droid-serif-2" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/bootstrap-grid.css">
-    <link rel="stylesheet" href="vendor/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Task Runner Project</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.cdnfonts.com/css/wisdom-script" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/droid-serif-2" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="vendor/bootstrap-grid.css">
+        <link rel="stylesheet" href="vendor/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Task Runner Project</title>
+    </head>
+    <body>
 
-    <header>
+        <header>
 
-        <nav>
+            <nav>
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-2">
+                            <a href="#" class="logo">Golden</a>
+                        </div>
+                        <div class="col-9 col-md-7 menu-wrapper">
+                            <input name="toggle" type="checkbox" class="hamburger-trigger"/>
+                            <label for="toggle" class="hamburger">
+                                <span>menu</span>
+                                <!--
+                                divs to be styled as a hamburger button
+                                -->
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </label>
+                            <ul class="menu d-flex justify-content-between">
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">SERVICES</a></li>
+                                <li><a href="#">PORTFOLIO</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
             <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-2">
-                        <p class="logo">Golden</p>
-                    </div>
-                    <div class="col-8 col-md-7">
-                        <ul class="menu d-flex justify-content-between">
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">SERVICES</a></li>
-                            <li><a href="#">PORTFOLIO</a></li>
-                            <li><a href="#">ABOUT</a></li>
-                            <li><a href="#">CONTACT</a></li>
-                        </ul>
-                    </div>
+                <div class="intro">
+                    <h2>Welcome To Our Studio!</h2>
+                    <h1>IT'S NICE TO MEET YOU</h1>
+                    <a href="#" class="btn-intro">TELL ME MORE</a>
                 </div>
             </div>
-        </nav>
 
-        <div class="container">
-            <div class="intro">
-                <h2>Welcome To Our Studio!</h2>
-                <h1>IT'S NICE TO MEET YOU</h1>
-                <a href="#" class="btn-intro">TELL ME MORE</a>
-            </div>
-        </div>
+        </header>
 
-    </header>
+        <main>
 
-    <main>
+            <section class="services">
+                <div class="container">
+                    <h3 class="title">SERVICES</h3>
+                    <p class="subtitle">
+                        Proin iaculis purus consequat sem cure.
+                    </p>
 
-        <section class="services">
+                    <div class="row align-items-stretch justify-content-center">
+                        <div class="service col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center">
+                            <div class="image">
+                                <img src="images/Icon-Basket.png" alt="" id="icon-basket">
+                            </div>
+                            <h4 class="title-small">E-commerce</h4>
+                            <p class="description">
+                                Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+                            </p>
+                        </div>
+                        <div class="service col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center">
+                            <div class="image">
+                                <img src="images/Icon-Laptop.png" alt="" id="icon-laptop">
+                            </div>
+                            <h4 class="title-small">Responsive Web</h4>
+                            <p class="description">
+                                Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+                            </p>
+                        </div>
+                        <div class="service col-md-4 d-flex flex-column align-items-center">
+                            <div class="image">
+                                <img src="images/Icon-Locked.png" alt="" id="icon-locked">
+                            </div>
+                            <h4 class="title-small">Web Security</h4>
+                            <p class="description">
+                                Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="portfolio">
+                <div class="container">
+                    <h3 class="title">OUR PORTFOLIO</h3>
+                    <p class="subtitle">
+                        Proin iaculis purus consequat sem cure.
+                    </p>
+                    <div class="row tiles justify-content-center">
+                        <div class="col-sm-6 col-lg-4 mb-5">
+                            <div class="tile">
+                                <div class="tile-image">
+                                    <img src="images/tile-1.png" alt="">
+                                </div>
+                                <div class="tile-description">
+                                    <h4 class="title-small">
+                                        Ebony &amp; Ivory
+                                    </h4>
+                                    <p class="description">
+                                        Branding
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-5">
+                            <div class="tile">
+                                <div class="tile-image">
+                                    <img src="images/tile-2.png" alt="">
+                                </div>
+                                <div class="tile-description">
+                                    <h4 class="title-small">
+                                        Smart Stationary
+                                    </h4>
+                                    <p class="description">
+                                        Print Design
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-5">
+                            <div class="tile">
+                                <div class="tile-image">
+                                    <img src="images/tile-3.png" alt="">
+                                </div>
+                                <div class="tile-description">
+                                    <h4 class="title-small">
+                                        Clever Poster
+                                    </h4>
+                                    <p class="description">
+                                        Print Design
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-5">
+                            <div class="tile">
+                                <div class="tile-image">
+                                    <img src="images/tile-4.png" alt="">
+                                </div>
+                                <div class="tile-description">
+                                    <h4 class="title-small">
+                                        Vinyl Record
+                                    </h4>
+                                    <p class="description">
+                                        Product Mock-Up
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-5">
+                            <div class="tile">
+                                <div class="tile-image">
+                                    <img src="images/tile-5.png" alt="">
+                                </div>
+                                <div class="tile-description">
+                                    <h4 class="title-small">
+                                        Treehouse Template
+                                    </h4>
+                                    <p class="description">
+                                        Web Design
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-5">
+                            <div class="tile">
+                                <div class="tile-image">
+                                    <img src="images/tile-6.png" alt="">
+                                </div>
+                                <div class="tile-description">
+                                    <h4 class="title-small">
+                                        Burned Logo
+                                    </h4>
+                                    <p class="description">
+                                        Branding
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
             <div class="container">
-                <h3 class="title">SERVICES</h3>
-                <p class="subtitle">
-                    Proin iaculis purus consequat sem cure. 
-                </p>
-
-                <div class="row align-items-stretch justify-content-center">
-                    <div class="service col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center">
-                        <div class="image">
-                            <img src="images/Icon-Basket.png" alt="" id="icon-basket">                            
-                        </div>                        
-                        <h4 class="title-small">E-commerce</h4>
-                        <p class="description">
-                            Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
-                        </p>
+                <div class="copyright">
+                    © Copyright 2014 FreebiesXpress.com
+                </div>
+                <div class="socials">
+                    <div class="row social-links">
+                        <div class="col">
+                            <a href="#" class="image twitter">
+                                <img src="images/Twitter.png" alt="Logo Twitter">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#" class="image facebook">
+                                <img src="images/Facebook.png" alt="Logo Facebook">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#" class="image pinterest">
+                                <img src="images/Pinterest.png" alt="Logo Pinterest">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#" class="image googlep">
+                                <img src="images/Google+.png" alt="Logo Google+">
+                            </a>
+                        </div>
                     </div>
-                    <div class="service col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center">
-                        <div class="image">
-                            <img src="images/Icon-Laptop.png" alt="" id="icon-laptop">                            
-                        </div> 
-                        <h4 class="title-small">Responsive Web</h4>
-                        <p class="description">
-                            Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
-                        </p>
-                    </div>
-                    <div class="service col-md-4 d-flex flex-column align-items-center">
-                        <div class="image">
-                            <img src="images/Icon-Locked.png" alt="" id="icon-locked">                            
-                        </div> 
-                        <h4 class="title-small">Web Security</h4>
-                        <p class="description">
-                            Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
-                        </p>
-                    </div>                                        
                 </div>
             </div>
-        </section>
-
-        <section class="portfolio">
-            <div class="container">
-                <h3 class="title">OUR PORTFOLIO</h3>
-                <p class="subtitle">
-                    Proin iaculis purus consequat sem cure. 
-                </p>             
-                <div class="row tiles justify-content-center">
-                    <div class="col-sm-6 col-lg-4 mb-5">
-                        <div class="tile">
-                            <div class="tile-image">
-                                <img src="images/tile-1.png" alt="">
-                            </div>
-                            <div class="tile-description">
-                                <h4 class="title-small">
-                                    Ebony & Ivory
-                                </h4>
-                                <p class="description">
-                                    Branding
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-5">
-                        <div class="tile">
-                            <div class="tile-image">
-                                <img src="images/tile-2.png" alt="">
-                            </div>
-                            <div class="tile-description">
-                                <h4 class="title-small">
-                                    Smart Stationary
-                                </h4>
-                                <p class="description">
-                                    Print Design
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-5">
-                        <div class="tile">
-                            <div class="tile-image">
-                                <img src="images/tile-3.png" alt="">
-                            </div>
-                            <div class="tile-description">
-                                <h4 class="title-small">
-                                    Clever Poster
-                                </h4>
-                                <p class="description">
-                                    Print Design
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-5">
-                        <div class="tile">
-                            <div class="tile-image">
-                                <img src="images/tile-4.png" alt="">
-                            </div>
-                            <div class="tile-description">
-                                <h4 class="title-small">
-                                    Vinyl Record
-                                </h4>
-                                <p class="description">
-                                    Product Mock-Up
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-5">
-                        <div class="tile">
-                            <div class="tile-image">
-                                <img src="images/tile-5.png" alt="">
-                            </div>
-                            <div class="tile-description">
-                                <h4 class="title-small">
-                                    Treehouse Template
-                                </h4>
-                                <p class="description">
-                                    Web Design
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-5">
-                        <div class="tile">
-                            <div class="tile-image">
-                                <img src="images/tile-6.png" alt="">
-                            </div>
-                            <div class="tile-description">
-                                <h4 class="title-small">
-                                    Burned Logo
-                                </h4>
-                                <p class="description">
-                                    Branding
-                                </p>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="copyright">
-                © Copyright 2014 FreebiesXpress.com
-            </div>
-            <div class="socials">
-                <div class="row social-links">
-                    <div class="col">
-                        <a href="#" class="image twitter">
-                            <img src="images/Twitter.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#" class="image facebook">
-                            <img src="images/Facebook.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#" class="image pinterest">
-                            <img src="images/Pinterest.png" alt="">
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#" class="image googlep">
-                            <img src="images/Google+.png" alt="">
-                        </a>
-                    </div>                
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>
