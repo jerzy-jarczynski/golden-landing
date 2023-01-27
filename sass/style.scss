@@ -65,10 +65,10 @@ section {
     color: $color-gray;
 }
 
-.container {
-    max-width: 940px;
-    margin-left: auto;
-    margin-right: auto;
+@media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 960px;
+    }
 }
 
 /* Header */
@@ -187,10 +187,6 @@ nav {
 
     .title-small {
         margin-bottom: 15px;
-    }
-
-    .description {
-        max-width: 290px;
     }
 
     .service {
