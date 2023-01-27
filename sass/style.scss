@@ -18,10 +18,11 @@ $color-gray: #777777;
 $color-darker-gray: #737373;
 $color-footer: #555555;
 $color-light: #f7f7f7;
+$color-white: #ffffff;
 
 /* Globals */
 
-body {
+body, p, h1, h2, h3, h4, h5, h6, ul, ol {
     padding: 0;
     margin: 0;
 }
@@ -29,9 +30,84 @@ body {
 /* Header */
 
 header {
+    position: relative;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
     background-image: url("../images/hero.png");
-    color: $color-light;
+    background-color: #948F82;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
 }
 
 /* Navigation */
 
+nav {
+    padding-top: 40px;
+}
+
+.logo {
+    font-family: $text-logo;
+    font-size: $font-l;
+    color: $color-yellow;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu li {
+    font-family: $text-sans;
+    font-size: $font-xs;
+    font-weight: 400;
+
+    a {
+        text-decoration: none;
+        color: $color-white;
+    }
+}
+
+/* Intro */
+
+.intro {
+    text-align: center;
+    color: $color-white;
+    padding: 160px 0;
+
+    h2 {
+        font-family: $text-serif;
+        font-size: $font-xl;
+        font-style: italic;
+    }
+
+    h1 {
+        font-family: $text-sans;
+        font-size: $font-xxl;
+        font-weight: 700;
+        margin: 50px 0 60px;
+    }
+
+    .btn-intro {
+        background-color: $color-yellow;
+        color: $color-white;
+        padding: 25px 50px;
+        text-decoration: none;
+        font-family: $text-sans;
+        font-weight: 700;
+        font-size: $font-m;
+        border-radius: 5px;
+        transition: all .5s;
+    }
+
+    .btn-intro:hover {
+        background-color: #204F89;
+    }
+}
