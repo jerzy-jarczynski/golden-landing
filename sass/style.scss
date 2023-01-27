@@ -20,6 +20,11 @@ $color-footer: #555555;
 $color-light: #f7f7f7;
 $color-white: #ffffff;
 
+$color-twitter: #1DA1F2;
+$color-facebook: #4267B2;
+$color-pinterest: #E60023;
+$color-googlep: #db4a39;
+
 /* Globals */
 
 section {
@@ -268,3 +273,75 @@ nav {
     }
 }
 
+/* Footer */
+
+footer {
+    padding: 40px 0;
+    position: relative;
+    height: 120px;
+    box-sizing: border-box;
+
+    .copyright {
+        font-family: $text-sans;
+        font-size: $font-xs;
+        color: $color-footer;
+        line-height: 40px;
+    }
+
+    .image {
+        background-color: $color-dark;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .4s;
+    }
+
+    .social-links > .col {
+        max-width: 50px;
+    }
+
+    .socials {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .twitter:hover {
+        background-color: $color-twitter;
+    }
+
+    .facebook:hover {
+        background-color: $color-facebook;
+    }
+
+    .pinterest:hover {
+        background-color: $color-pinterest;
+    }
+
+    .googlep:hover {
+        background-color: $color-googlep;
+    }
+}
+
+@media (max-width: 850px) {
+    footer {
+        text-align: center;
+
+        .socials {
+            position: relative;
+        }
+
+        .social-links {
+            justify-content: center;
+        }
+
+        .copyright {
+            margin-bottom: 40px;
+            line-height: normal;
+        }
+    }
+}
