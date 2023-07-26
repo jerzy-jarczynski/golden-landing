@@ -60,8 +60,8 @@ You can see living demo without cloning or downloading the repo:
 
 1. CodePen:
 
-[https://codepen.io/jerzyjarczynski/pen/ExpRJeY](https://codepen.io/jerzyjarczynski/pen/WNKJGZY)
+[https://codepen.io/jerzyjarczynski/pen/ExpRJeY](https://codepen.io/jerzyjarczynski/pen/ExpRJeY)
 
 2. My personal domain:
 
-[https://golden.jarczynski-dev.pl/](https://montypython.jarczynski-dev.pl)
+[https://golden.jarczynski-dev.pl/](https://golden.jarczynski-dev.pl/)
