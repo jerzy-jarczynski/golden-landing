@@ -130,7 +130,7 @@ nav {
   .menu-wrapper label span {
     display: none;
   }
-  .menu-wrapper label div {
+  .menu-wrapper label .hamburgerBar {
     display: block;
     width: 30px;
     height: 2px;
@@ -142,10 +142,10 @@ nav {
     transform-origin: 4px 0px;
     transition: all 0.3s ease;
   }
-  .menu-wrapper label div:first-child {
+  .menu-wrapper label .hamburgerBar:first-child {
     transform-origin: 0% 100%;
   }
-  .menu-wrapper label div:nth-child(2) {
+  .menu-wrapper label .hamburgerBar:nth-child(2) {
     transform-origin: 0% 0%;
   }
   .menu-wrapper .menu li a {
@@ -168,7 +168,7 @@ nav {
     justify-content: space-around !important;
     transition: all 0.4s ease;
   }
-  .menu-wrapper input:checked + label div {
+  .menu-wrapper input:checked + label .hamburgerBar {
     background-color: #555555;
   }
   .menu-wrapper input:checked ~ ul {

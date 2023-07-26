@@ -166,7 +166,7 @@ nav {
                 display: none;
             }
 
-            div {
+            .hamburgerBar {
                 display: block;
                 width: 30px;
                 height: 2px;
@@ -183,13 +183,13 @@ nav {
                 transition: all 0.3s ease;                
             }
 
-            div:first-child {
+            .hamburgerBar:first-child {
                 -webkit-transform-origin: 0% 100%;
                 -ms-transform-origin: 0% 100%;
                 transform-origin: 0% 100%;                
             }
 
-            div:nth-child(2) {
+            .hamburgerBar:nth-child(2) {
                 -webkit-transform-origin: 0% 0%;
                 -ms-transform-origin: 0% 0%;
                 transform-origin: 0% 0%;
@@ -220,7 +220,7 @@ nav {
         }
     }
 
-    .menu-wrapper input:checked + label div {
+    .menu-wrapper input:checked + label .hamburgerBar {
         background-color: $color-footer;
     }
 
